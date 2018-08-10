@@ -19,3 +19,5 @@ Finetune a resnet in Keras and visualize the CAM
 4. Run `test.py` to test the trained model using valid datasets.
 
 5. Run `resnet_cam.py` to visualize the cam of pictures in the `test` folder using the trained model.
+
+   The `resnet_cam` program was borrowed and modified from [ResNetCAM-keras](https://github.com/alexisbcook/ResNetCAM-keras).
