@@ -21,3 +21,10 @@ Finetune a resnet in Keras and visualize the CAM
 5. Run `resnet_cam.py` to visualize the cam of pictures in the `test` folder using the trained model.
 
    The `resnet_cam` program was borrowed and modified from [ResNetCAM-keras](https://github.com/alexisbcook/ResNetCAM-keras).
+
+## Tips
+Run `./train.sh GPU` to train models using GPU and save the training logs.
+
+For example:
+
+> Run `./train.sh 0` to train models using GPU 0.
